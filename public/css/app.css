@@ -691,11 +691,11 @@ video {
   transform: translate(-50%, -50%);
 }
 
-.video-container:hover .play-icon > .circle {
+.video-container:hover .play-icon .circle {
   fill: #ef426f;
 }
 
-.video-container .play-icon > .circle {
+.video-container .play-icon .circle {
   stroke: #ef426f;
   fill: none;
 }

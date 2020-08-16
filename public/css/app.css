@@ -686,15 +686,18 @@ video {
 }
 
 .video-container .play-icon {
-  stroke: #ef426f;
-  fill: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.video-container:hover .play-icon {
+.video-container:hover .play-icon .circle {
   fill: #ef426f;
+}
+
+.video-container .play-icon .circle {
+  stroke: #ef426f;
+  fill: none;
 }
 
 .space-y-0 > :not(template) ~ :not(template) {

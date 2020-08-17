@@ -3,6 +3,19 @@
 
 @tailwind components;
 
+@tailwind utilities;
+
+.contact-item{
+    &:hover {
+        .icon-lightblue {
+            @apply text-theme-lightblue;
+        }
+
+        .icon-green {
+            @apply text-theme-green;
+        }
+    }
+}
 .btn {
     @apply appearance-none px-8 py-4;
 }
@@ -10,14 +23,24 @@
 .btn:focus {
     outline: none;
 }
-.header-section-arrow{    
+.arrow{    
     border-left: 1.7rem solid transparent;
     border-right: 1.7rem solid transparent;
-    border-top: 3rem solid #00EF8B;
+    border-top: 3rem solid ;
     right: 20%;
-    bottom: -2rem;
+    
 }
-
+.arrow.arrow-green{
+    border-top-color: #00EF8B !important;
+    bottom: -2rem !important; 
+}
+.arrow.arrow-gray{
+    border-top-color: #DBDBDB !important;
+    top: -1rem !important; 
+}
+.parent:hover .parent-hover\:text-white {
+    color: #fff;
+}
 .cta-btn {
     @apply  text-white uppercase font-medium w-full;
     background-color: #EF426F;
@@ -29,6 +52,9 @@
     transition: 0.2s all;
     transition-timing-function: linear;
     box-shadow: 0.1rem 0.1rem 0rem 1px #363D87;
+}
+.more-info-item-shadow{
+    box-shadow: 0.5rem 0.3rem 0rem 2px #EF426F;
 }
 
 .cta-btn:hover span {
@@ -44,8 +70,8 @@
 }
 
 .video-container{
-    height: 340px;
-    width: 570px;
+    height: 300px;
+    width: 500px;
     overflow: hidden;
 }
 
@@ -54,7 +80,7 @@
 }
 
 .video:hover > img {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .video-container .play-icon {   
@@ -71,5 +97,26 @@
     
 }
 
-    
-@tailwind utilities;
+
+.icon .cls-2 {
+    fill: #fff;
+}
+
+.feature-1.icon .cls-1 {
+    fill: #00bf6f;
+}
+.feature-1.icon .cls-3 {
+    fill: #003575;
+}
+.feature-2.icon .cls-1 {
+    fill: #ffbecf;
+}
+.feature-2.icon .cls-3 {
+    fill: #ef426f;
+}  
+.feature-3.icon .cls-1{
+    fill: #73d7ff;
+}
+.feature-3.icon .cls-3 {
+    fill: #363d87;
+}

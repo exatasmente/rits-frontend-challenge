@@ -84,7 +84,7 @@
                                 transform="translate(-164.583 -146.854)" fill="white" stroke="none"></path>
                         </g>
                     </svg>
-                    <img src="http://localhost:8080/img/Video.png" alt="Video Preview" class="object-fill bg-theme-black h-full">
+                    <img src={{ asset('/img/Video.png') }} " alt="Video Preview" class="object-fill bg-theme-black h-full">
                 </div>
             </div>
         </div>

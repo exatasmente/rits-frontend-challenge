@@ -58,7 +58,7 @@
                             Proin eu massa odio?
                         </h1>
                     </div>
-                    <div class="break-words flex font-normal lg:text-md px-16 py-8 relative text-gray-800 text-left text-sm"
+                    <div class="break-words flex font-normal lg:text-md px-16 py-8 relative text-theme-black text-left text-sm"
                         style="">
                         <p>
                             <strong class="text-medium">Maecenas faucibus elementum ipsum nec rhoncus. Integer a tortor
@@ -90,7 +90,7 @@
     <section id="section-3">
         <div class="container m-auto flex flex-wrap justify-center mx-auto w-8/12">
             <div class="container m-auto w-1/2">
-                <h1 class="break-words text-gray-800 font-medium leading-0 lg:text-5xl p-2 text-3xl">
+                <h1 class="break-words text-theme-black font-medium leading-0 lg:text-5xl p-2 text-3xl">
                     Ut eu dolor vitae elit bibendum fringilla elit...
                 </h1>
             </div>
@@ -679,11 +679,11 @@
                                 height="58" viewBox="0 0 60 58">
                                 <defs>
                                     <clipPath id="clip-path">
-                                        <rect id="Rectangle_11246" data-name="Rectangle 11246" class="text-gray-500 fill-current" width="60"
+                                        <rect id="Rectangle_11246" data-name="Rectangle 11246" fill="gray" width="60"
                                             height="58" transform="translate(1075 1957)" />
                                     </clipPath>
                                 </defs>
-                                <g id="Mask_Group_43" data-name="Mask Group 43" class="text-gray-800 fill-current"
+                                <g id="Mask_Group_43" data-name="Mask Group 43" class="text-theme-black fill-current"
                                     transform="translate(-1075 -1957)">
                                     <image id="Image_36" data-name="Image 36" width="60" height="64.8" transform="translate(1075 1957)"/>
                                 </g>
@@ -1070,7 +1070,7 @@
               <span class="float-right">
                 <svg class="text-theme-pink stroke-current" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" width="28" height="26.828" viewBox="0 0 28 26.828">
                   <g id="arrow-forward-outline" transform="translate(-99 -110.586)">
-                    <path id="Path_3098" data-name="Path 3098" d="M268,112l12,12-12,12" transform="translate(-154 0)" fill="none"" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                    <path id="Path_3098" data-name="Path 3098" d="M268,112l12,12-12,12" transform="translate(-154 0)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                     <line id="Line_1334" data-name="Line 1334" x1="24" transform="translate(100 124)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                   </g>
                 </svg>

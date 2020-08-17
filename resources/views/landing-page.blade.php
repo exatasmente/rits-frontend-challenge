@@ -97,7 +97,7 @@
                 </h1>
             </div>
             <div class="md:w-1/2 flex justify-end">
-                <img src="{{ asset('img/Image 50.png') }}" alt="" class="object-fill  h-full">
+                <img src="{{ asset('img/Image 50.png') }}" alt="" class="object-fill bg-theme-black h-full">
             </div>
         </div>
     </section>

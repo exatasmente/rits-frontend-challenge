@@ -49,17 +49,17 @@
             </div>
         </div>
     </section>
-    <section id="video-section" class="pt-32 section-2 bg-theme-green" >
-        <div class="flex flex-wrap justify-center mx-auto w-8/12">
+    <section id="video-section" class="bg-theme-green lg:pt-32 pt-2" >
+        <div class="justify-center lg:flex lg:w-8/12 md:flex-wrap mx-auto w-full">
             <div class="bg-white md:relative w-1/2 -mb-1">
-                <div class="absolute bottom-0 justify-start py-10 shadow-xl" style="bottom: -2rem;">
-                    <div class="border-blue-800 border-l-8 mb-2">
+                <div class="xl:absolute bottom-0 justify-start shadow-xl" style="bottom: -3rem;">
+                  <div class="flex-col m-auto">
+                    <div class="border-theme-blue border-l-8 mt-4">
                         <h1 class="break-words font-medium leading-0 lg:text-4xl p-2 px-16 text-3xl text-theme-pink">
                             Proin eu massa odio?
                         </h1>
                     </div>
-                    <div class="break-words flex font-normal lg:text-md px-16 py-8 relative text-theme-black text-left text-sm"
-                        style="">
+                    <div class="break-words flex font-normal lg:text-md px-16 py-8 relative text-theme-black text-left text-sm">
                         <p>
                             <strong class="text-medium">Maecenas faucibus elementum ipsum nec rhoncus. Integer a tortor
                                 vitae felis lobortis rutrum.</strong>
@@ -67,10 +67,12 @@
                             vel elementum.
                         </p>
                     </div>
+                  </div>
                 </div>
+                
             </div>
             <div class="bottom-0 md:relative md:w-1/2 video-container">
-                <div class="video">
+                <div class="relative video">
                     <svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108"
                         class="absolute z-10 play-icon">
                         <g id="Play" transform="translate(4 4)">
@@ -82,7 +84,7 @@
                                 transform="translate(-164.583 -146.854)" fill="white" stroke="none"></path>
                         </g>
                     </svg>
-                    <img src="http://localhost:8080/img/Video.png" alt="Video Preview" class="object-fill bg-black h-full">
+                    <img src="http://localhost:8080/img/Video.png" alt="Video Preview" class="object-fill bg-theme-black h-full">
                 </div>
             </div>
         </div>
@@ -123,10 +125,10 @@
                     </div>
                 </div>
             </div>
-            <div class="m-auto w-1/2 bg-white px-16 py-4">
+            <div class="m-auto w-1/2 bg-white px-4 py-4">
                 <ul class="w-8/12">
                     <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
+                        <div class="my-2 w-2/12">
                             <svg xmlns="http://www.w3.org/2000/svg" class="feature-1 icon" width="60" height="60" viewBox="0 0 60 60">
                                 <g id="Group_13131" data-name="Group 13131" transform="translate(-261.013 -337.188)">
                                     <g id="Group_13214" data-name="Group 13214">
@@ -173,7 +175,7 @@
                         </div>
                     </li>
                     <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
+                        <div class="my-2 w-2/12">
                             <svg xmlns="http://www.w3.org/2000/svg" class="feature-1 icon" width="60" height="60" viewBox="0 0 60 60">
                                 <g id="Group_13141" data-name="Group 13141" transform="translate(-188.306 -115.853)">
                                     <g id="Group_13215" data-name="Group 13215">
@@ -222,7 +224,7 @@
                         </div>
                     </li>
                     <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
+                        <div class="my-2 w-2/12">
                             <svg class="feature-1 icon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
 
                                 <g id="Group_13133" data-name="Group 13133" transform="translate(-287.5 -319.462)">
@@ -274,10 +276,10 @@
             </div>
         </div>
         <div id="feature-2" class="flex flex-wrap">
-            <div class="bg-white flex justify-end px-16 py-4 w-1/2">
+            <div class="bg-white flex justify-end px-4 py-4 w-1/2">
                 <ul class="w-8/12">
                     <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
+                        <div class="my-2 w-2/12">
                             <svg class="feature-2 icon" xmlns="http://www.w3.org/2000/svg" width="46.599" height="60" viewBox="0 0 46.599 60">
                                 <g id="Group_13372" data-name="Group 13372" transform="translate(-219.414 -100.677)">
                                     <g id="Group_13373" data-name="Group 13373">
@@ -352,7 +354,7 @@
                         </div>
                     </li>
                     <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
+                        <div class="my-2 w-2/12">
                             <svg class="feature-2 icon" xmlns="http://www.w3.org/2000/svg" width="60" height="59.999" viewBox="0 0 60 59.999">
                             
                                 <g id="Group_13195" data-name="Group 13195" transform="translate(-115.367 -263.701)">
@@ -412,7 +414,7 @@
                         </div>
                     </li>
                     <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
+                        <div class="my-2 w-2/12">
                             <svg class="feature-2 icon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
                                 <g id="Group_13187" data-name="Group 13187" transform="translate(-115.367 -337.188)">
                                     <path id="Rectangle_11167" data-name="Rectangle 11167" class="cls-1"
@@ -486,7 +488,7 @@
         </div>
         <div id="feature-3" class="flex flex-wrap">
             <div class="-mt-1 flex flex-wrap justify-end w-1/2 bg-theme-blue">
-                <div class="container my-auto px-10 py-8 w-8/12">
+                <div class="container my-auto px-4 py-8 w-8/12">
                     <h1 class="font-medium text-3xl text-theme-pink">
                       <span class="text-white">
                         Suspendisse feugiat orci sedvelit pulvinar.
@@ -510,10 +512,10 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-white flex justify-start px-16 py-10 w-1/2">
+            <div class="bg-white flex justify-start px-4 pt-8 w-1/2">
                 <ul class="w-8/12">
-                    <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
+                    <li class="flex m-1">
+                        <div class="my-2 w-2/12">
                             <svg class="feature-3 icon"  xmlns="http://www.w3.org/2000/svg" width="44.686" height="60" viewBox="0 0 44.686 60">
                                 <g id="Group_13321" data-name="Group 13321" transform="translate(-147.115 -174.165)">
                                     <g id="Group_13308" data-name="Group 13308" transform="translate(149.687 176.712)">
@@ -564,15 +566,15 @@
                                 </g>
                             </svg>
                         </div>
-                        <div class="my-2 px-12 w-10/12 overflow-hidden">
+                        <div class="my-2 px-4 w-10/12">
                             <p class="text-md font-normal text-theme-black">
                                 <strong class="text-medium">Nunc congue magnas:</strong> vel elementum finibufaucibus lectus
                                 sed viverra hendrerit.
                             </p>
                         </div>
                     </li>
-                    <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
+                    <li class="flex m-1">
+                        <div class="my-2 w-2/12">
                             <svg class="feature-3 icon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
                               
                                 <g id="Group_13305" data-name="Group 13305" transform="translate(-287.5 -100.677)">
@@ -666,30 +668,18 @@
                                 </g>
                             </svg>
                         </div>
-                        <div class="my-2 px-12 w-10/12 overflow-hidden">
+                        <div class="my-2 px-4 w-10/12">
                             <p class="text-md font-normal text-theme-black">
                                 <strong class="text-medium">Fusce ac cursus nisl </strong>nisl mauris id cursus mauris,
                                 sollicitudin varius quis convallis metus est.
                             </p>
                         </div>
                     </li>
-                    <li class="-mx-2 my-2 flex overflow-hidden">
-                        <div class="my-2 overflow-hidden w-2/12">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60"
-                                height="58" viewBox="0 0 60 58">
-                                <defs>
-                                    <clipPath id="clip-path">
-                                        <rect id="Rectangle_11246" data-name="Rectangle 11246" fill="gray" width="60"
-                                            height="58" transform="translate(1075 1957)" />
-                                    </clipPath>
-                                </defs>
-                                <g id="Mask_Group_43" data-name="Mask Group 43" class="text-theme-black fill-current"
-                                    transform="translate(-1075 -1957)">
-                                    <image id="Image_36" data-name="Image 36" width="60" height="64.8" transform="translate(1075 1957)"/>
-                                </g>
-                            </svg>
+                    <li class="flex m-1">
+                        <div class="my-2 w-2/12">
+                            <img src="{{ asset('img/google-logo.png') }}">
                         </div>
-                        <div class="my-2 px-12 w-10/12 overflow-hidden">
+                        <div class="my-2 px-4 w-10/12">
                             <p class="text-md font-normal text-theme-black">
                                 <strong class="text-medium">Ut eu dolor vitae elits</strong> Ut eu dolor vitae elit bibendum
                                 fringilla sit amet a elit mauris in sollicitudin eros.
@@ -1015,8 +1005,8 @@
             <div class="lg:px-8 mx-auto px-4 sm:px-6 w-8/12">
               <div class="gap-3 md:grid md:grid-cols-3 relative" style="bottom: -3rem;">
                 <div class="bg-white col-span-1 flex flex-col shadow text-center">
-                  <div class="flex flex-1 flex-col px-2 py-4">
-                    <h1 class="border-b font-medium pb-4 text-md xl:text-3xl  text-theme-pink">Viverra </h1>
+                  <div class="flex flex-1 flex-col px-8 py-4">
+                    <h1 class="border-b border-theme-gray-1 font-medium pb-4 text-md xl:text-3xl  text-theme-pink">Viverra </h1>
                     <p class="font-normal px-8 py-4 text-left text-sm xl:text-xl">
                       <strong class="font-medium">Sed varius cursus fringilla. Interdum:</strong> et
                       malesuada fames ac ante ipsum primis in faucibus. Suspendisse feugiat orci sed velit
@@ -1031,7 +1021,7 @@
                 </div>
                 <div class="bg-white col-span-1 flex flex-col shadow text-center">
                   <div class="flex flex-1 flex-col px-8 py-4">
-                    <h1 class="border-b font-medium pb-4 text-md xl:text-3xl  text-theme-green">Pretium </h1>
+                    <h1 class="border-b border-theme-gray-1 font-medium pb-4 text-md xl:text-3xl  text-theme-green">Pretium </h1>
                     <p class="font-normal px-3 py-4 text-left text-sm xl:text-xl">
                       <strong class="font-medium">Nullam tincidunt at diam at faucibus. Nunc euismod felis in lectus cursus, eget laoreet est sagittis:</strong> Etiam ut pharetra urna, interdum malesuada quam. Aenean vel imperdiet urna.
                     </p>
@@ -1044,7 +1034,7 @@
                 </div>
                 <div class="bg-white col-span-1 flex flex-col shadow text-center">
                   <div class="flex flex-1 flex-col px-8 py-4">
-                    <h1 class="border-b font-medium pb-4 text-md xl:text-3xl text-theme-lightblue">Mauris </h1>
+                    <h1 class="border-b border-theme-gray-1 font-medium pb-4 text-md xl:text-3xl text-theme-lightblue">Mauris </h1>
                     <p class="font-normal px-3 py-4 text-left text-sm xl:text-xl">
                       <strong class="font-medium">Hac habitasse platea dictumstl tiam tortor diam: </strong> ornare vel libero eget, posuere malesuada lectus. Vestibulum quis lacus lacinia, porttitor felis aliquet, sollicitudin neque.
                     </p>
@@ -1155,15 +1145,15 @@
         </div>
         <div class="relative" style="bottom : -3rem;">
           <div class="absolute h-32 inset-0"></div>
-          <div class="bg-white flex justify-between h-32"> 
+          <div class="bg-white flex h-32 justify-between m-auto"> 
             <div class="flex w-1/3 h-full border-r border-theme-gray-7 hover:bg-theme-gray-7 transition-colors duration-200">
               <a href="#" class="contact-item flex m-auto px-4 z-10">
-                <svg class="icon-lightblue fill-current text-theme-gray-6 hover:text-theme-lightblue" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg" width="64" height="46.273" viewBox="0 0 64 46.273">
+                <svg class="fill-current hover:text-theme-lightblue icon-lightblue text-theme-gray-6 w-10" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg" width="64" height="46.273" viewBox="0 0 64 46.273">
                   <g id="Group_13271" data-name="Group 13271" transform="translate(-208 -55)">
-                    <path id="Path_3240" data-name="Path 3240" d="M270,96.545a2.727,2.727,0,0,1-2.727,2.727H212.727A2.727,2.727,0,0,1,210,96.545V59.727A2.727,2.727,0,0,1,212.727,57h54.545A2.727,2.727,0,0,1,270,59.727Z" fill="none" stroke-miterlimit="10" stroke-width="4"/>
-                    <path id="Path_3241" data-name="Path 3241" d="M264.455,60,245.3,79.159a9.545,9.545,0,0,1-13.5,0L214,61.364" transform="translate(1.455 1.091)" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
-                    <line id="Line_1336" data-name="Line 1336" y1="12.273" x2="12.273" transform="translate(215.455 81.545)" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
-                    <line id="Line_1337" data-name="Line 1337" x1="12.273" y1="12.273" transform="translate(252.273 81.545)" fill="none"  stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+                    <path id="Path_3240" data-name="Path 3240" d="M270,96.545a2.727,2.727,0,0,1-2.727,2.727H212.727A2.727,2.727,0,0,1,210,96.545V59.727A2.727,2.727,0,0,1,212.727,57h54.545A2.727,2.727,0,0,1,270,59.727Z" fill="none" stroke-miterlimit="10" stroke-width="4"></path>
+                    <path id="Path_3241" data-name="Path 3241" d="M264.455,60,245.3,79.159a9.545,9.545,0,0,1-13.5,0L214,61.364" transform="translate(1.455 1.091)" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"></path>
+                    <line id="Line_1336" data-name="Line 1336" y1="12.273" x2="12.273" transform="translate(215.455 81.545)" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"></line>
+                    <line id="Line_1337" data-name="Line 1337" x1="12.273" y1="12.273" transform="translate(252.273 81.545)" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"></line>
                   </g>
                 </svg>
                 <div class="flex-wrap -mt-3 ">
@@ -1174,31 +1164,31 @@
             </div>
             <div class="flex w-1/3 h-full border-r border-theme-gray-7 hover:bg-theme-gray-7 transition-colors duration-200">
               <a href="#" class="contact-item flex m-auto px-4 z-10 group">
-                <svg class="icon-lightblue fill-current text-theme-gray-6 group-hover:text-theme-lightblue" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg" width="61.497" height="64.035" viewBox="0 0 61.497 64.035">
+                <svg class="fill-current group-hover:text-theme-lightblue icon-lightblue text-theme-gray-6 w-10" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg" width="61.497" height="64.035" viewBox="0 0 61.497 64.035">
                     <g id="Group_13272" data-name="Group 13272" transform="translate(-48.901 -128.301)">
-                      <path id="Path_3242" data-name="Path 3242" d="M57.13,162.363l-1.388,3.813a4.058,4.058,0,0,0,2.425,5.2l20.334,7.4a4.056,4.056,0,0,0,5.2-2.425l1.388-3.813" transform="translate(1.601 11.294)" fill="none"  stroke-miterlimit="10" stroke-width="4"/>
-                      <path id="Path_3243" data-name="Path 3243" d="M97.041,137.965l-20.334-7.4a4.057,4.057,0,0,0-5.2,2.425L56.7,173.657l27.959,10.177,14.8-40.668A4.058,4.058,0,0,0,97.041,137.965Z" transform="translate(2.027 0)" fill="none"  stroke-miterlimit="10" stroke-width="4"/>
-                      <line id="Line_1338" data-name="Line 1338" x2="5.083" y2="1.85" transform="translate(68.781 181.634)" fill="none"  stroke-miterlimit="10" stroke-width="4"/>
-                      <path id="Path_3244" data-name="Path 3244" d="M60.7,143.14A6.763,6.763,0,0,0,57,153.313" transform="translate(1.741 4.519)" fill="none"  stroke-miterlimit="10" stroke-width="4"/>
-                      <path id="Path_3245" data-name="Path 3245" d="M58.605,139.228A12.173,12.173,0,0,0,52.4,156.274" transform="translate(0 3.14)" fill="none"  stroke-miterlimit="10" stroke-width="4"/>
-                      <path id="Path_3246" data-name="Path 3246" d="M88.6,153.4a6.763,6.763,0,0,1-3.7,10.172" transform="translate(11.964 8.135)" fill="none"  stroke-miterlimit="10" stroke-width="4"/>
-                      <path id="Path_3247" data-name="Path 3247" d="M93.935,152.225a12.171,12.171,0,0,1-6.2,17.049" transform="translate(12.964 7.721)" fill="none"  stroke-miterlimit="10" stroke-width="4"/>
+                      <path id="Path_3242" data-name="Path 3242" d="M57.13,162.363l-1.388,3.813a4.058,4.058,0,0,0,2.425,5.2l20.334,7.4a4.056,4.056,0,0,0,5.2-2.425l1.388-3.813" transform="translate(1.601 11.294)" fill="none" stroke-miterlimit="10" stroke-width="4"></path>
+                      <path id="Path_3243" data-name="Path 3243" d="M97.041,137.965l-20.334-7.4a4.057,4.057,0,0,0-5.2,2.425L56.7,173.657l27.959,10.177,14.8-40.668A4.058,4.058,0,0,0,97.041,137.965Z" transform="translate(2.027 0)" fill="none" stroke-miterlimit="10" stroke-width="4"></path>
+                      <line id="Line_1338" data-name="Line 1338" x2="5.083" y2="1.85" transform="translate(68.781 181.634)" fill="none" stroke-miterlimit="10" stroke-width="4"></line>
+                      <path id="Path_3244" data-name="Path 3244" d="M60.7,143.14A6.763,6.763,0,0,0,57,153.313" transform="translate(1.741 4.519)" fill="none" stroke-miterlimit="10" stroke-width="4"></path>
+                      <path id="Path_3245" data-name="Path 3245" d="M58.605,139.228A12.173,12.173,0,0,0,52.4,156.274" transform="translate(0 3.14)" fill="none" stroke-miterlimit="10" stroke-width="4"></path>
+                      <path id="Path_3246" data-name="Path 3246" d="M88.6,153.4a6.763,6.763,0,0,1-3.7,10.172" transform="translate(11.964 8.135)" fill="none" stroke-miterlimit="10" stroke-width="4"></path>
+                      <path id="Path_3247" data-name="Path 3247" d="M93.935,152.225a12.171,12.171,0,0,1-6.2,17.049" transform="translate(12.964 7.721)" fill="none" stroke-miterlimit="10" stroke-width="4"></path>
                     </g>
                   </svg>
                   <div class="flex-wrap -mt-3">
                     <h1 class="break-words font-normal px-4 text-2xl text-theme-black">Ligamos</h1>
-                    <h1 class="break-words font-normal px-4 text-2xl text-theme-black">pra você?</h1>
+                    <h1 class="break-words font-normal lg:text-3xl px-4 text-theme-black text-xl">pra você</h1>
                   </div>
                 </a>
             </div>
             <div class="flex w-1/3 h-full  hover:bg-theme-gray-7 transition-colors duration-200">
-              <a href="#" class="contact-item flex m-auto px-4 z-10 group">
-                <svg class="icon-green fill-current text-theme-gray-6 group-hover:text-theme-green" stroke="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
-                  <path id="logo-whatsapp" d="M83.258,40.718A29.819,29.819,0,0,0,36.239,76.6L32,92l15.837-4.134a29.95,29.95,0,0,0,14.277,3.616h.012A29.848,29.848,0,0,0,92,61.749,29.488,29.488,0,0,0,83.258,40.718ZM62.126,86.462h-.011a24.877,24.877,0,0,1-12.637-3.445l-.907-.536-9.4,2.454,2.508-9.119-.591-.937A24.852,24.852,0,1,1,62.126,86.462ZM75.745,67.955c-.746-.372-4.42-2.17-5.1-2.417s-1.183-.372-1.679.372S67.037,68.32,66.6,68.823s-.871.557-1.617.185a20.418,20.418,0,0,1-6-3.687,22.4,22.4,0,0,1-4.152-5.146c-.435-.743-.047-1.146.327-1.516.336-.333.746-.868,1.12-1.3a5.026,5.026,0,0,0,.746-1.24,1.364,1.364,0,0,0-.062-1.3c-.186-.371-1.679-4.029-2.3-5.517-.607-1.449-1.221-1.252-1.679-1.275C52.545,48,52.042,48,51.548,48a2.75,2.75,0,0,0-1.99.929,8.325,8.325,0,0,0-2.613,6.2c0,3.654,2.679,7.189,3.048,7.685s5.263,8,12.751,11.218A43.273,43.273,0,0,0,67,75.593a10.277,10.277,0,0,0,4.7.295c1.434-.213,4.42-1.8,5.04-3.533a6.2,6.2,0,0,0,.435-3.532C76.991,68.513,76.492,68.326,75.745,67.955Z" transform="translate(-32 -31.999)" fill-rule="evenodd"/>
+              <a href="#" class="contact-item flex m-auto px-4 z-10">
+                <svg class="fill-current group-hover:text-theme-green icon-green text-theme-gray-6 w-10" stroke="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                  <path id="logo-whatsapp" d="M83.258,40.718A29.819,29.819,0,0,0,36.239,76.6L32,92l15.837-4.134a29.95,29.95,0,0,0,14.277,3.616h.012A29.848,29.848,0,0,0,92,61.749,29.488,29.488,0,0,0,83.258,40.718ZM62.126,86.462h-.011a24.877,24.877,0,0,1-12.637-3.445l-.907-.536-9.4,2.454,2.508-9.119-.591-.937A24.852,24.852,0,1,1,62.126,86.462ZM75.745,67.955c-.746-.372-4.42-2.17-5.1-2.417s-1.183-.372-1.679.372S67.037,68.32,66.6,68.823s-.871.557-1.617.185a20.418,20.418,0,0,1-6-3.687,22.4,22.4,0,0,1-4.152-5.146c-.435-.743-.047-1.146.327-1.516.336-.333.746-.868,1.12-1.3a5.026,5.026,0,0,0,.746-1.24,1.364,1.364,0,0,0-.062-1.3c-.186-.371-1.679-4.029-2.3-5.517-.607-1.449-1.221-1.252-1.679-1.275C52.545,48,52.042,48,51.548,48a2.75,2.75,0,0,0-1.99.929,8.325,8.325,0,0,0-2.613,6.2c0,3.654,2.679,7.189,3.048,7.685s5.263,8,12.751,11.218A43.273,43.273,0,0,0,67,75.593a10.277,10.277,0,0,0,4.7.295c1.434-.213,4.42-1.8,5.04-3.533a6.2,6.2,0,0,0,.435-3.532C76.991,68.513,76.492,68.326,75.745,67.955Z" transform="translate(-32 -31.999)" fill-rule="evenodd"></path>
                 </svg>
                 <div class="flex-wrap -mt-3">
-                  <h1 class="break-words font-normal px-4 text-2xl text-theme-black">Fale pelo</h1>
-                  <h1 class="break-words font-normal px-4 text-2xl text-theme-black">WhatsApp</h1>
+                  <h1 class="break-words font-normal lg:text-2xl px-4 text-theme-black text-xl">Fale pelo</h1>
+                  <h1 class="break-words font-normal lg:text-2xl px-4 text-theme-black text-xl">WhatsApp</h1>
                 </div>
               </a>
             </div>

@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="md:relative md:w-1/2 w-full header-section-img">
-                <span class="absolute h-10 w-10 header-section-arrow z-10">
+                <span class="absolute h-10 w-10 arrow arrow-green z-10">
                 </span>
                 <img src="{{ asset('img/header-section-image.png') }}"
                     class="bg-contain bg-gray-300 bottom-0 h-full relative right-0 w-full">
